@@ -1,0 +1,226 @@
+.box {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #cf5e5e;
+  box-shadow: 0 0 2px 5px #cccccc; }
+  .box > span.heng {
+    width: 570px;
+    height: 1px;
+    position: absolute;
+    background: black;
+    left: 15px; }
+  .box > i.lie {
+    width: 1px;
+    height: 570px;
+    position: absolute;
+    background: black;
+    top: 15px; }
+  .box > span.heng:nth-of-type(1) {
+    top: 15px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 20ms; }
+  .box > span.heng:nth-of-type(2) {
+    top: 45px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 40ms; }
+  .box > span.heng:nth-of-type(3) {
+    top: 75px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 60ms; }
+  .box > span.heng:nth-of-type(4) {
+    top: 105px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 80ms; }
+  .box > span.heng:nth-of-type(5) {
+    top: 135px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 100ms; }
+  .box > span.heng:nth-of-type(6) {
+    top: 165px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 120ms; }
+  .box > span.heng:nth-of-type(7) {
+    top: 195px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 140ms; }
+  .box > span.heng:nth-of-type(8) {
+    top: 225px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 160ms; }
+  .box > span.heng:nth-of-type(9) {
+    top: 255px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 180ms; }
+  .box > span.heng:nth-of-type(10) {
+    top: 285px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 200ms; }
+  .box > span.heng:nth-of-type(11) {
+    top: 315px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 220ms; }
+  .box > span.heng:nth-of-type(12) {
+    top: 345px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 240ms; }
+  .box > span.heng:nth-of-type(13) {
+    top: 375px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 260ms; }
+  .box > span.heng:nth-of-type(14) {
+    top: 405px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 280ms; }
+  .box > span.heng:nth-of-type(15) {
+    top: 435px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 300ms; }
+  .box > span.heng:nth-of-type(16) {
+    top: 465px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 320ms; }
+  .box > span.heng:nth-of-type(17) {
+    top: 495px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 340ms; }
+  .box > span.heng:nth-of-type(18) {
+    top: 525px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 360ms; }
+  .box > span.heng:nth-of-type(19) {
+    top: 555px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 380ms; }
+  .box > span.heng:nth-of-type(20) {
+    top: 585px;
+    transform: translate(-1200px, 0);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 400ms; }
+  .box > i.lie:nth-of-type(1) {
+    left: 15px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 20ms; }
+  .box > i.lie:nth-of-type(2) {
+    left: 45px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 40ms; }
+  .box > i.lie:nth-of-type(3) {
+    left: 75px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 60ms; }
+  .box > i.lie:nth-of-type(4) {
+    left: 105px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 80ms; }
+  .box > i.lie:nth-of-type(5) {
+    left: 135px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 100ms; }
+  .box > i.lie:nth-of-type(6) {
+    left: 165px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 120ms; }
+  .box > i.lie:nth-of-type(7) {
+    left: 195px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 140ms; }
+  .box > i.lie:nth-of-type(8) {
+    left: 225px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 160ms; }
+  .box > i.lie:nth-of-type(9) {
+    left: 255px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 180ms; }
+  .box > i.lie:nth-of-type(10) {
+    left: 285px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 200ms; }
+  .box > i.lie:nth-of-type(11) {
+    left: 315px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 220ms; }
+  .box > i.lie:nth-of-type(12) {
+    left: 345px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 240ms; }
+  .box > i.lie:nth-of-type(13) {
+    left: 375px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 260ms; }
+  .box > i.lie:nth-of-type(14) {
+    left: 405px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 280ms; }
+  .box > i.lie:nth-of-type(15) {
+    left: 435px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 300ms; }
+  .box > i.lie:nth-of-type(16) {
+    left: 465px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 320ms; }
+  .box > i.lie:nth-of-type(17) {
+    left: 495px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 340ms; }
+  .box > i.lie:nth-of-type(18) {
+    left: 525px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 360ms; }
+  .box > i.lie:nth-of-type(19) {
+    left: 555px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 380ms; }
+  .box > i.lie:nth-of-type(20) {
+    left: 585px;
+    transform: translate(0, -1200px);
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 400ms; }
+
+@keyframes fadeIn {
+  from { }
+  to {
+    transform: translate(0, 0); } }

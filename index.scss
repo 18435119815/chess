@@ -1,0 +1,45 @@
+@import "var.scss";
+@import "mixin.scss";
+.box{
+    width: $width;
+    height: $width;
+    @include positionWell;
+    background: rgb(207, 94, 94);
+    box-shadow: 0 0 2px 5px #cccccc;
+    >span.heng{
+        width: $width - $radius*2;
+        height: 1px;
+        position: absolute;
+        background: black;
+        left:$radius;
+
+    }
+    >i.lie{
+        width: 1px;
+        height: $width - $radius*2;
+        position: absolute;
+        background: black;
+        top:$radius;
+    }
+    @for $i from 1 through 20{
+        >span.heng:nth-of-type(#{$i}){
+            top:(2 * $i - 1)*$radius ;
+            transform: translate(-1200px,0);
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: $i * 20ms;
+        }
+    }
+    @for $i from 1 through 20{
+        >i.lie:nth-of-type(#{$i}){
+            left:(2 * $i - 1)*$radius ;
+            transform: translate(0,-1200px);
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: $i * 20ms;
+        }
+    }
+    @keyframes fadeIn {
+        from{};
+        to{transform: translate(0,0) ;
+    }
+}
+}
